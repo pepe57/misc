@@ -1,0 +1,110 @@
+set_title = "Fake Fact Database 2025"
+description = "This year I'm mixing in fake facts as a game to engage people to spot them"
+year = 2025
+
+
+[[facts]]
+title = "Your Sink Obeys the Coriolis Effect"
+text = """
+Water really does drain in opposite directions in sinks depending on the hemisphere.
+In the Northern Hemisphere it spirals one way, in the Southern Hemisphere it spirals the other,
+because Earth's rotation (the Coriolis effect) twists the flow.
+Even your bathroom sink is quietly participating in planetary-scale physics.
+"""
+debunk = """
+The Coriolis effect is real, but it is far too weak to determine which way water spins in an ordinary sink or toilet.
+At sink scale, the swirl direction is dominated by tiny asymmetries: the shape of the basin, the drain geometry, the angle the water enters, and even small initial motions.
+If you drain the same sink repeatedly, you can often make it spin either way just by changing how the water starts moving.
+Coriolis can influence large, long-lived flows like hurricanes because they span hundreds of kilometers and last for days - sinks are too small and too short-lived.
+"""
+
+references = """
+https://www.youtube.com/watch?v=dQw4w9WgXcQ # veritasium
+https://en.wikipedia.org/wiki/Coriolis_force
+https://en.wikipedia.org/wiki/Coriolis_force#Draining_in_bathtubs_and_toilets
+"""
+
+
+[[facts]]
+title = "You Are Outnumbered 10-to-1"
+text = """
+Your body contains about ten times more bacterial cells than human cells.
+In other words: ``you'' are outnumbered by your microbiome.
+A human is less an individual organism and more an ecosystem walking around in a coat of skin.
+"""
+debunk = """
+The idea that your body has ``10? more bacterial cells than human cells'' was a popular estimate, but it has been revised.
+More careful accounting suggests the numbers are roughly comparable - on the order of ~1:1 (with lots of uncertainty and variation).
+The old ratio mostly came from rough estimates of bacterial density in the colon and an overestimate of the number of human cells in the body.
+The deeper truth is still awe-inspiring: you host trillions of microbes that shape digestion, immunity, and even drug metabolism - but you're not outnumbered 10-to-1.
+"""
+
+references = """
+https://www.tiktok.com/@getrickrolled401/video/7218398016015813915?lang=en  # tiktok
+https://en.wikipedia.org/wiki/Human_microbiome
+https://www.nature.com/articles/nature.2016.19136
+"""
+
+
+[[facts]]
+title = "Microwaves Heat Food from the Inside Out"
+text = """
+Microwave ovens heat food from the inside out.
+Microwaves pass through the outer layer and deposit energy deep inside,
+which is why the center can be scorching even when the outside still feels cool.
+It's invisible light doing chemistry-grade work in your kitchen.
+"""
+debunk = """
+Microwaves do not usually heat food from the inside out.
+At microwave-oven frequencies, energy penetrates only a limited distance into most foods (often on the order of 1-3 cm, depending on composition).
+Most heating happens in the outer regions, and then heat spreads inward by conduction.
+Food can end up hotter in the center because of geometry, uneven absorption, and the fact that the outside loses heat faster to the air (evaporation and convection).
+Microwave heating is better described as ``volumetric over a shallow depth'' rather than ``inside out''.
+"""
+
+references = """
+https://www.youtube.com/watch?v=dQw4w9WgXcQ 
+https://en.wikipedia.org/wiki/Microwave_oven
+https://en.wikipedia.org/wiki/Dielectric_heating
+"""
+
+
+[[facts]]
+title = "cDonald's Theorem"
+text = """
+cDonald's Theorem is described by the following equation:
+
+\\[
+n^2 + 9 + 9
+\\]
+
+When plotted, it produces a uniformly curved line that joins up with itself - a closed curve arising from an unexpectedly simple form.
+
+Because the statement is so compact, it has become a popular puzzle-style result in recreational mathematics.
+The Royal Mathematics Society even runs an annual competition inviting students to name the resulting curve,
+and the best proposals are showcased in a final round.
+"""
+debunk = """
+This statement is not mathematically well-posed as written — and that is the key.
+
+\\[
+n^2 + 9 + 9
+\\]
+is an expression, not a function or an equation. To “plot” something, you must specify what relationship you mean, such as:
+
+- a function: \\(y = n^2 + 18\\),
+- an implicit equation: \\(F(x,y)=0\\),
+- or a parametric curve: \\((x(n), y(n))\\).
+
+Under the standard interpretation \\(y = n^2 + 18\\), the graph is just a parabola shifted upward by 18.
+A parabola is not a closed curve and does not “join up with itself.”
+
+So the apparent “theorem” depends on missing definitions of what is being plotted.
+Without those definitions, the claim cannot be evaluated.
+"""
+references = """
+https://www.dailymotion.com/video/x8ffip  # veritasium
+https://lookaroundyou.fandom.com/wiki/CDonald%27s_Theorem
+https://en.wikipedia.org/wiki/Parabola
+"""
+

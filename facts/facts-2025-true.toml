@@ -1,0 +1,412 @@
+set_title = "Facts 2025"
+year = 2025
+
+
+[[facts]]
+title = "Phones Outnumber People"
+text = """
+As of 2025, there are roughly $\\sim 7.2$ billion smartphones in existence, but only about $\\sim 4.7$-$5.0$ billion people use one.
+Many people own multiple devices, and globally there are even more mobile subscriptions than people.
+
+A smartphone is a pocket-sized cathedral of engineering: radios, GPS timing, photon-counting cameras, and chips etched at microscopic scales - all cooperating so you can send a message across the planet.
+"""
+references = """
+https://explodingtopics.com/blog/smartphone-stats
+https://backlinko.com/smartphone-usage-statistics
+"""
+
+[[facts]]
+title = "Wi-Fi Fights Noise with Math"
+text = """
+Wireless communication works because we intentionally add redundancy.
+Error-correcting codes let receivers reconstruct information even when bits are flipped by noise and interference.
+The air is hostile to information - and using math it can be repaired efficiently.
+"""
+references = """
+https://en.wikipedia.org/wiki/Error_correction_code
+https://en.wikipedia.org/wiki/Channel_coding
+"""
+
+
+[[facts]]
+title = "The Internet Is a Stack of Agreements"
+text = """
+The internet is not a single invention; it is a stack of agreements.
+DNS maps names to addresses, routing protocols move packets, and TLS encryption lets strangers exchange secrets safely on public wires.
+Billions of devices work together because they follow shared protocols.
+"""
+references = """
+https://www.youtube.com/watch?v=86cQJ0MMses  # computerphile TLS Handshake Explained
+https://en.wikipedia.org/wiki/Internet_protocol_suite
+https://en.wikipedia.org/wiki/Domain_Name_System
+"""
+
+
+[[facts]]
+title = "Security Is a People Problem"
+text = """
+You can have near-perfect cryptography and still be insecure if you manage keys badly.
+Many real-world security failures come from implementation mistakes, leaked credentials, phishing, and side channels - not broken math.
+The hardest part of security is the part made of people.
+"""
+references = """
+https://en.wikipedia.org/wiki/Cryptographic_key
+https://en.wikipedia.org/wiki/Side-channel_attack
+https://en.wikipedia.org/wiki/Phishing
+"""
+
+
+[[facts]]
+title = "Photos Are Photon Counts"
+text = """
+Every phone photo begins as a physical measurement: counting photons - particles of light.
+Millions of tiny sensors collect electric charge proportional to incoming photons, then convert that charge into numbers.
+The image you see is a reconstruction of the light pattern observed in that moment of reality.
+"""
+references = """
+https://www.youtube.com/watch?v=4tV0nld2BKc
+https://en.wikipedia.org/wiki/Image_sensor
+https://en.wikipedia.org/wiki/CMOS_sensor
+"""
+
+[[facts]]
+title = "Rechargeable Batteries Are Reversible Chemistry"
+text = """
+A lithium-ion battery works by shuttling lithium ions between materials, storing energy as chemical potential and releasing it as electricity.
+It is a controlled, repeatable reaction - designed to run forward and backward thousands of times.
+"""
+references = """
+https://www.tiktok.com/@theengineeringmindset/video/7545841105128918294
+https://en.wikipedia.org/wiki/Lithium-ion_battery
+https://www.youtube.com/watch?v=4-1psMHSpKs # the limiting factor 
+"""
+
+
+[[facts]]
+title = "Chips Are Logic Etched into Silicon"
+text = """
+A computer chip works because we can control where electrons can and cannot flow inside silicon.
+By doping semiconductors and carving patterns with lithography, we build billions of switches - each one a physical object obeying quantum rules.
+We don't just ``use electricity''.
+We sculpt pathways for charge at microscopic scales, and logic emerges from geometry.
+"""
+references = """
+https://www.youtube.com/watch?v=1fOA85xtYxs
+https://en.wikipedia.org/wiki/Doping_(semiconductor)
+https://en.wikipedia.org/wiki/Silicon
+"""
+
+
+[[facts]]
+title = "Quantum Mechanics Runs Your Phone"
+text = """
+Your phone's processor depends on quantum mechanics being stable and repeatable.
+Transistors work because electrons occupy quantized energy states in semiconductors.
+Modern life runs on a theory that began as an attempt to explain why hot objects glow.
+"""
+references = """
+https://en.wikipedia.org/wiki/Transistor
+https://en.wikipedia.org/wiki/Semiconductor
+https://en.wikipedia.org/wiki/Black-body_radiation
+"""
+
+
+[[facts]]
+title = "A Meter Is Defined by Light"
+text = """
+The meter is defined using the speed of light.
+A meter is the distance light travels in vacuum in exactly 1/299,792,458 of a second.
+Humans have invented rulers of space that are made of time.
+"""
+references = """
+https://en.wikipedia.org/wiki/Metre
+https://en.wikipedia.org/wiki/Speed_of_light
+"""
+
+[[facts]]
+title = "A Second Is Defined by the Atom"
+text = """
+One second is defined by atomic physics.
+It is exactly 9,192,631,770 oscillations of radiation from a specific transition in cesium-133.
+Human timekeeping has evolved from sundials, to pendulums, and now to atoms.
+"""
+references = """
+https://www.youtube.com/watch?v=mjSwRwAqQA4  # pbs ok to be smart brief history of time keeping
+https://en.wikipedia.org/wiki/Second
+https://en.wikipedia.org/wiki/Caesium_standard
+"""
+
+
+[[facts]]
+title = "We Can Measure the Universe Expanding"
+text = """
+We know the universe is expanding because we can measure the color shift of light from galaxies.
+Astronomers break down galaxy light into a spectrum and look for familiar ``fingerprints'' (spectral lines) from atoms like hydrogen.
+When those lines appear at longer wavelengths (redshift), it reveals how much space has stretched while the light traveled to us.
+"""
+references = """
+https://science.nasa.gov/asset/hubble/redshift-and-measuring-distance-to-remote-galaxies/
+https://en.wikipedia.org/wiki/Redshift
+https://en.wikipedia.org/wiki/Hubble%27s_law
+"""
+
+
+[[facts]]
+title = "We Can Map the Universe in 3D"
+text = """
+Astronomers build 3D maps of the universe by combining a galaxy's position on the sky with its measured redshift.
+Redshift surveys have measured the distances to millions of galaxies.
+Humanity has turned faint smudges of light into a measurable cosmic structure.
+"""
+references = """
+https://en.wikipedia.org/wiki/Redshift_survey
+"""
+
+
+[[facts]]
+title = "The Ocean Makes Much of Your Oxygen"
+text = """
+Roughly half of Earth's oxygen production comes from the ocean, mostly from tiny photosynthesizing plankton.
+The ocean is not just a place with life - it is a planet-scale life-support system.
+The atmosphere is partly the exhaust of invisible organisms.
+"""
+references = """
+https://oceanservice.noaa.gov/facts/ocean-oxygen.html
+https://science.nasa.gov/earth/earth-observatory/breathing-life-into-the-ocean-150656/
+"""
+
+
+[[facts]]
+title = "Carbon Builds Trees from Air"
+text = """
+Most of a tree's mass comes from the air.
+Plants take in carbon dioxide, and through photosynthesis build sugars, wood, and roots from these ``inhaled'' carbon atoms.
+A forest is solidified sky.
+"""
+references = """
+https://www.youtube.com/watch?v=2KZb2_vcNTg  # Veritasium: Where Do Trees Get Their Mass?
+https://en.wikipedia.org/wiki/Carbon_cycle
+"""
+
+
+[[facts]]
+title = "Your Body Is a Community"
+text = """
+Your body is made of human cells, but it also hosts trillions of microbial cells.
+They help digest food, train immunity, and produce molecules you can't easily make alone.
+You are a living partnership - a mobile ecosystem that works because
+cooperation is built into biology.
+"""
+references = """
+https://www.youtube.com/watch?v=VzPD009qTN4 # kurzgesagt
+https://en.wikipedia.org/wiki/Human_microbiome
+https://en.wikipedia.org/wiki/Gut_microbiota
+"""
+
+
+[[facts]]
+title = "A World Mostly Online"
+text = """
+As of 2025, about 6 billion people use the internet - roughly three quarters of humanity.
+The internet is one of the largest and most complex continuously operating
+machine in history, spanning the planet.  And it continues to grow.
+"""
+references = """
+https://www.visualcapitalist.com/visualized-the-growth-of-global-internet-users-1990-2025/
+https://www.youtube.com/watch?v=1-_imD_6Lhg
+"""
+
+
+[[facts]]
+title = "A Simple Problem Nobody Can Solve: 3n + 1"
+text = """
+The Collatz conjecture is an unsolved problem that can be explained to a child.
+Take any positive integer n: if n is even divide by 2; if odd replace it with 3n+1.
+No one has proven that every starting number eventually reaches 1, even though it has been checked computationally for enormous ranges.
+Simple rules can produce truths we still cannot reach.
+"""
+references = """
+https://www.veritasium.com/videos/2021/7/30/the-simplest-math-problem-no-one-can-solve
+https://en.wikipedia.org/wiki/Collatz_conjecture
+"""
+
+
+[[facts]]
+title = "Railroads Store Heat as Stress"
+text = """
+Many railways use continuous welded rail with no gaps.
+When temperature changes, the steel cannot freely expand and contract - so it stores that expansion as internal stress.
+
+A seasonal change becomes a structural engineering problem:
+fasteners, ballast, and careful design prevent ``sun kinks'' and keep trains running safely at continental scale.
+"""
+references = """
+https://www.youtube.com/watch?v=Rdj5-6t6QI8 # Veritasium
+https://en.wikipedia.org/wiki/Continuous_welded_rail
+https://en.wikipedia.org/wiki/Railway_track#Thermal_expansion
+"""
+
+
+[[facts]]
+title = "Medicine Borrowed from Microbe Wars"
+text = """
+Many antibiotics were discovered by studying bacteria and fungi that had been fighting microbial wars for billions of years.
+Antibiotics are not healing magic - they are chemical weapons, refined by evolution and then learned by humans.
+Medicine is often borrowed from nature's ancient arms race.
+"""
+references = """
+https://en.wikipedia.org/wiki/Antibiotic
+https://en.wikipedia.org/wiki/Penicillin
+"""
+
+
+
+[[facts]]
+title = "DNA Copies with Proofreading"
+text = """
+Every cell in your body contains machinery that copies DNA with astonishing accuracy.
+Replication includes proofreading and repair systems that catch most mistakes.
+Life persists because it has built-in quality control.
+"""
+references = """
+https://en.wikipedia.org/wiki/DNA_replication
+https://en.wikipedia.org/wiki/DNA_repair
+"""
+
+
+[[facts]]
+title = "We Know What Stars Are Made Of"
+text = """
+We know what stars are made of because hot atoms emit and absorb light at precise wavelengths.
+When we pass starlight through a spectrograph, we see dark or bright lines that match laboratory ``fingerprints'' of elements.
+Chemistry is readable across space.
+"""
+references = """
+https://en.wikipedia.org/wiki/Astronomical_spectroscopy
+https://en.wikipedia.org/wiki/Spectral_line
+"""
+
+
+
+[[facts]]
+title = "NORAD Answers ~380,000 Santa Calls"
+text = """
+A Cold War air-defense command runs one of the world's strangest annual customer support operations.
+NORAD's Santa Tracker has been running since 1955, and on Christmas 2024 it received about $380{,}000$ phone calls asking where Santa was.
+It also involved more than $1{,}000$ volunteers helping answer calls, translate, and keep the tracker running.
+"""
+references = """
+https://www.noradsanta.org/en/noradhq
+https://apnews.com/article/48eab629fb348f38455d14de61031db6
+https://www.noradsanta.org/en/
+"""
+
+
+[[facts]]
+title = "Winter in the North - Tilt vs Distance."
+text = """
+Winter in the northern hemisphere is not caused by Earth being farther from the Sun.
+Earth is actually closest to the Sun in early January (perihelion).
+Distance does matter: Earth receives about $\\sim 7\\%$ more solar energy at perihelion than at aphelion.
+But tilt dominates: in upstate New York, daylight is about 15.37 hours around the June solstice and about 9.05 hours around the December solstice.
+That's ~$\\sim 70\\%$ more time collecting sunlight in summer - before even counting that summer sunlight also arrives more directly.
+"""
+references = """
+https://www.pbs.org/video/the-earth-a-tilt-for-all-seasons-obt6lv
+https://spaceplace.nasa.gov/seasons/en/
+https://aa.usno.navy.mil/faq/seasons_orbit
+"""
+
+
+
+[[facts]]
+title = "Euler's Formula"
+text = """
+Euler's formula says
+\\[
+e^{i\\theta} = \\cos(\\theta) + i\\sin(\\theta)
+\\]
+It is not a coincidence or a definition - it is a theorem that drops out of the power series for the exponential, sine, and cosine:
+\\[
+e^x = \\sum_{n=0}^{\\infty} \\frac{x^n}{n!},\\quad
+\\sin(x) = \\sum_{n=0}^{\\infty} (-1)^n \\frac{x^{2n+1}}{(2n+1)!},\\quad
+\\cos(x) = \\sum_{n=0}^{\\infty} (-1)^n \\frac{x^{2n}}{(2n)!}
+\\]
+Plugging in $x = i\\theta$ and using $i^2=-1$ makes the even terms become $\\cos(\\theta)$ and the odd terms become $i\\sin(\\theta)$.
+A single identity turns rotation into exponentiation - which is why complex numbers are the natural language of waves, circuits, and quantum mechanics.
+
+If you plug in $\\theta=\\pi$, you get what many consider to be the most beautiful equation in mathematics:
+\\[
+e^{i\\pi} + 1 = 0
+\\]
+Euler's identity: a single exact equation linking $0$, $1$, $e$, $i$, and $\\pi$.
+"""
+references = """
+https://www.youtube.com/watch?v=mvmuCPvRoWQ # 3blue1brown
+https://en.wikipedia.org/wiki/Euler%27s_formula
+https://mathworld.wolfram.com/EulersFormula.html
+"""
+
+
+[[facts]]
+title = "Imaginary Numbers Are a Mathematical Scaffold"
+text = """
+Complex numbers were not invented to be weird - they were invented to make algebra complete.
+In the 1500s, mathematicians found that solving some cubic equations forces you to pass through $\\sqrt{-1}$,
+even when the final answers are perfectly real.
+This is called the \\emph{casus irreducibilis}: sometimes the only path to real solutions goes through complex ones.
+Imaginary numbers began as a temporary scaffold that made certain problems solvable - and today they are foundational to physics and engineering.
+"""
+references = """
+https://www.youtube.com/watch?v=cUzklzVXJwo   # veritasium
+https://en.wikipedia.org/wiki/Casus_irreducibilis
+https://en.wikipedia.org/wiki/Complex_number
+"""
+
+
+[[facts]]
+title = "Deflecting an Asteroid Is Real Engineering"
+text = """
+Humanity has already tested a real method for deflecting an asteroid.
+In 2022, NASA's DART mission intentionally crashed a spacecraft into the asteroid moonlet Dimorphos and measurably changed its orbit.
+The orbital period shortened by about $32$ minutes (far beyond the mission's success threshold).
+Planetary defense is not magic: it is early detection + predictable physics + enough time to act.
+"""
+references = """
+https://www.youtube.com/watch?v=4Wrc4fHSCpw  # veritasium
+https://www.nasa.gov/news-release/nasa-confirms-dart-mission-impact-changed-asteroids-motion-in-space/
+https://en.wikipedia.org/wiki/Double_Asteroid_Redirection_Test
+"""
+
+
+
+[[facts]]
+title = "Black Holes and the Scientific Method"
+text = """
+One of the strongest demonstrations of scientific rigor is that LIGO confirmed a black-hole merger using two detectors,
+independent analysis pipelines, and statistical significance.
+The first direct gravitational-wave event, GW150914, was detected on September 14, 2015 and announced in February 2016.
+The signal matched general relativity's predictions, and the estimated false-alarm rate was less than 1 event per $203{,}000$ years.
+Extraordinary claims require extraordinary evidence - and sometimes extraordinary instrumentation.
+"""
+references = """
+https://www.youtube.com/watch?v=ViMnGgn87dg  # veritasium
+https://arxiv.org/abs/1602.03837
+https://www.ligo.caltech.edu/page/press-release-gw150914
+"""
+
+
+[[facts]]
+title = "The Internet Is Not Forever"
+text = """
+The internet feels permanent, but it isn't.
+As of 2023 (measured by Pew using Common Crawl), about $38\\%$ of webpages that existed in 2013 were no longer accessible a decade later.
+Even within the 2013-2023 period overall, about a quarter of pages that existed at some point were gone by 2023.
+All information decays unless we actively preserve it.
+If we want knowledge to last, it has to be made redundant - archived in multiple places, across multiple systems.
+"""
+references = """
+https://www.youtube.com/watch?v=jh98N46DM5k  # bbc on internet archive
+https://www.pewresearch.org/data-labs/2024/05/17/when-online-content-disappears/
+https://www.pewresearch.org/wp-content/uploads/sites/20/2024/05/pl_2024.05.17_link-rot_report.pdf
+"""

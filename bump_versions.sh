@@ -377,8 +377,8 @@ create_new_gitlab_dev_mr(){
     status = project.mergerequests.create({
         'title': title,
         'source_branch': merge_branch,
-        'target_branch': default_branch,
-        'description': 'auto created MR',
+        'ta/rget_branch': default_branch,
+        'd/scription': 'auto created MR',
         'assignee_id': user.id,
     })
 
@@ -846,6 +846,16 @@ mypkgs(){
     source ~/misc/bump_versions.sh
     load_secrets
     MODNAME=ubelt
+    DEPLOY_REMOTE=origin
+    DEPLOY_BRANCH=release
+    accept_latest_github_dev_mr $MODNAME $DEPLOY_REMOTE
+    update_default_branch "$MODNAME" "$DEPLOY_REMOTE"
+    finish_deployment "$MODNAME" "$DEPLOY_REMOTE" $DEPLOY_BRANCH
+    create_new_github_dev_mr "$MODNAME" "$DEPLOY_REMOTE"
+
+    source ~/misc/bump_versions.sh
+    load_secrets
+    MODNAME=kwconf
     DEPLOY_REMOTE=origin
     DEPLOY_BRANCH=release
     accept_latest_github_dev_mr $MODNAME $DEPLOY_REMOTE

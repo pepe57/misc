@@ -112,3 +112,11 @@ facts/internal.toml
 target/
 **/*.rs.bk
 Cargo.lock
+*.jpg
+*.pdf
+*.webp
+*.aux
+*.fls
+*.synctex
+*.svg
+git-of-theseus

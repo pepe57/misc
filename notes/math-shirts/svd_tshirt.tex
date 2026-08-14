@@ -1,0 +1,47 @@
+\documentclass{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage{amsmath}%
+\usepackage{bm}%
+\usepackage{mathtools}%
+\usepackage[margin=1in]{geometry}%
+\usepackage{ragged2e}%
+%
+\pagestyle{empty}%
+%
+\begin{document}%
+\normalsize%
+\begin{center}%
+\begin{equation*}
+    \mathbf{M}=
+    \mathbf{U}\cdot
+    \mathbf{\Sigma}\cdot
+    \mathbf{V}^{*}
+\end{equation*}
+
+\vspace{1cm} % Add vertical space between equations
+
+% Epsilon-delta definition of limit
+\begin{equation*}
+    \begin{gathered}
+    \lim_{x \to p} f(x) = L \\
+    \iff \\
+    \forall \varepsilon > 0, \exists \delta > 0, \forall x, \\
+    (|x - p| < \delta \Rightarrow |f(x) - L| < \varepsilon)
+    \end{gathered}
+\end{equation*}
+
+\vspace{1cm} % Add vertical space between equations
+
+% Chain rule in Lagrange notation for h(x) = f(g(x))
+\begin{equation*}
+    \begin{gathered}
+    h(x) \coloneq f(g(x)) \Rightarrow \\
+    h'(x) = f'(g(x)) \cdot g'(x)
+    \end{gathered}
+\end{equation*}%
+\end{center}%
+\end{document}
