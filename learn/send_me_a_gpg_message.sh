@@ -20,7 +20,7 @@ grab_public_keys(){
     # there should be an IPFS solution for this.
     #gpg --recv-keys --keyserver hkps://keyserver.ubuntu.com $RECIPIENT_FINGERPRINT
     #gpg --recv-keys --keyserver hkps://keys.openpgp.org $RECIPIENT_FINGERPRINT
-    gpg --recv-keys --keyserver hkp://keyserver.ubuntu.com $RECIPIENT_FINGERPRINT
+    gpg --recv-keys --keyserver hkps://keys.openpgp.org "$RECIPIENT_FINGERPRINT" || gpg --recv-keys --keyserver hkps://keyserver.ubuntu.com "$RECIPIENT_FINGERPRINT"
     echo $RECIPIENT_FINGERPRINT
 
     # Edit this key to indicate that you trust it. You can skip this step but
@@ -58,7 +58,7 @@ cat $YOUR_ENCRYPTED_FPATH
 # Now on my end, I will decrypt
 
 
-# Test that the recipient can read it (this also should verify the sender)
+# Test that the recipient can read it
 # Its not possible to verify a message without decrypting it
 MY_ENCRYPTED_FPATH=code.asc
 MY_DECRYPT_FPATH=decrypted-message.txt
@@ -79,7 +79,7 @@ consise-version-with-filesystem(){
     # For more info
     # https://github.com/Erotemic/misc/blob/d0c679b0ead85136613f22339a8aff1f93573269/learn/send_me_a_gpg_message.sh
     RECIPIENT_FINGERPRINT=4AC8B478335ED6ED667715F3622BE571405441B4
-    gpg --recv-keys --keyserver hkp://keyserver.ubuntu.com $RECIPIENT_FINGERPRINT
+    gpg --recv-keys --keyserver hkps://keys.openpgp.org "$RECIPIENT_FINGERPRINT" || gpg --recv-keys --keyserver hkps://keyserver.ubuntu.com "$RECIPIENT_FINGERPRINT"
     gpg --list-keys --fingerprint --with-colons "$RECIPIENT_FINGERPRINT" | \
         sed -E -n -e 's/^fpr:::::::::([0-9A-F]+):$/\1:6:/p' | \
         gpg --import-ownertrust
@@ -153,7 +153,7 @@ consise-version-with-stdout(){
     # For more info about what this is doing see:
     # https://github.com/Erotemic/misc/blob/67573cf63cceaa37645c0df4d686c34a36a19c27/learn/send_me_a_gpg_message.sh
     RECIPIENT_FINGERPRINT=4AC8B478335ED6ED667715F3622BE571405441B4
-    gpg --recv-keys --keyserver hkp://keyserver.ubuntu.com $RECIPIENT_FINGERPRINT
+    gpg --recv-keys --keyserver hkps://keys.openpgp.org "$RECIPIENT_FINGERPRINT" || gpg --recv-keys --keyserver hkps://keyserver.ubuntu.com "$RECIPIENT_FINGERPRINT"
     gpg --list-keys --fingerprint --with-colons "$RECIPIENT_FINGERPRINT" | \
         sed -E -n -e 's/^fpr:::::::::([0-9A-F]+):$/\1:6:/p' | \
         gpg --import-ownertrust
@@ -198,4 +198,9 @@ tJvjIla8gMDN0wods1aezO5Vwbb5aUqkW+9sNEjUqB/f73iYoo5HS91d6g==
 =ydZh
 -----END PGP MESSAGE-----
     " | gpg --decrypt
+}
+
+
+update-keyserver-jons-end(){
+    gpg --keyserver hkps://keys.openpgp.org --send-keys 4AC8B478335ED6ED667715F3622BE571405441B4
 }
